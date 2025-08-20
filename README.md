@@ -1,12 +1,12 @@
-# CBT-Copilot 🧠💬
+# CBT-Copilot
 
-[![Hugging Face Model](https://img.shields.io/badge/🤗%20Hugging%20Face-Model-blue)](https://huggingface.co/thillaic/CBT-Copilot)
+[![Hugging Face Model](https://img.shields.io/badge/Hugging%20Face-Model-blue)](https://huggingface.co/thillaic/CBT-Copilot)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 
 **CBT-Copilot** is a fine-tuned version of `meta-llama/Llama-3.2-3B-Instruct`, specifically designed to simulate compassionate and supportive dialogues in the style of **Cognitive Behavioral Therapy (CBT)**. This model provides empathetic, structured therapeutic conversations while maintaining professional boundaries.
 
-## 🎯 Model Overview
+## Model Overview
 
 - **Base Model**: `meta-llama/Llama-3.2-3B-Instruct`
 - **Fine-tuning Method**: LoRA (Low-Rank Adaptation)
@@ -15,7 +15,7 @@
 - **Specialty**: Cognitive Behavioral Therapy conversations
 - **Deployment**: Compatible with `transformers`, `vLLM`, and other inference frameworks
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -105,7 +105,7 @@ for output in outputs:
     print(output.outputs[0].text)
 ```
 
-## 📋 Model Details
+## Model Details
 
 ### Training Configuration
 
@@ -127,23 +127,23 @@ The model was fine-tuned using the following configuration:
 
 Fine-tuned on the `Lumiiree/therapod-dpo` dataset, which contains high-quality therapeutic conversation examples structured for CBT-style interactions.
 
-## 🎭 Use Cases
+## Use Cases
 
 - **Mental Health Support**: Provide initial emotional support and coping strategies
 - **Educational Tool**: Demonstrate CBT techniques and therapeutic communication
 - **Research**: Study therapeutic dialogue patterns and intervention strategies
 - **Training**: Help train mental health professionals in CBT communication styles
 
-## ⚠️ Important Disclaimers
+## Important Disclaimers
 
-> **🚨 This model is for educational and research purposes only. It is NOT a replacement for professional mental health treatment.**
+> **This model is for educational and research purposes only. It is NOT a replacement for professional mental health treatment.**
 
 - This AI model cannot provide clinical diagnosis or treatment
 - For serious mental health concerns, please consult licensed mental health professionals
 - The model's responses should be used as supplementary support, not primary treatment
 - Always prioritize professional medical advice for mental health issues
 
-## 📊 Performance & Evaluation
+## Performance & Evaluation
 
 The model demonstrates strong performance in:
 - Empathetic response generation
@@ -153,7 +153,7 @@ The model demonstrates strong performance in:
 
 *Detailed evaluation metrics and benchmarks will be added as they become available.*
 
-## 🛠️ Fine-tuning Your Own Version
+## Fine-tuning Your Own Version
 
 If you want to fine-tune this model further or create your own version:
 
@@ -171,7 +171,7 @@ python model_finetuning.py
 
 See `model_finetuning.py` for the complete training script.
 
-## 📈 Deployment Options
+## Deployment Options
 
 ### Local Deployment
 - Use `transformers` library for small-scale applications
@@ -187,7 +187,7 @@ See `model_finetuning.py` for the complete training script.
 - Compatible with AWS SageMaker, Google Cloud AI Platform
 - Docker containers available for scalable deployment
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please feel free to:
 - Report bugs and issues
@@ -195,11 +195,11 @@ We welcome contributions! Please feel free to:
 - Submit pull requests
 - Share evaluation results
 
-## 📜 License
+## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Meta AI** for the base Llama 3.2 model
 - **Lumiiree** for the therapod-dpo dataset
@@ -208,4 +208,4 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 ---
 
-*Built with ❤️ for the mental health and AI communities*
+*Built for the mental health and AI communities*
